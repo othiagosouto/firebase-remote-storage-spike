@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17234576CCCC4AFDBF32AC33 /* Pods_firebaseRemoteStorageSpike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159DE5FDC81C41DDAE8033CF /* Pods_firebaseRemoteStorageSpike.framework */; };
 		4E912E43208E7438003D227C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E912E42208E7438003D227C /* AppDelegate.swift */; };
 		4E912E45208E7438003D227C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E912E44208E7438003D227C /* ViewController.swift */; };
 		4E912E48208E7438003D227C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E912E46208E7438003D227C /* Main.storyboard */; };
 		4E912E4A208E7438003D227C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E912E49208E7438003D227C /* Assets.xcassets */; };
 		4E912E4D208E7438003D227C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E912E4B208E7438003D227C /* LaunchScreen.storyboard */; };
 		4E912E58208E7438003D227C /* firebaseRemoteStorageSpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E912E57208E7438003D227C /* firebaseRemoteStorageSpikeTests.swift */; };
+		86540B5F4D2DBEDD80F4C271 /* Pods_firebaseRemoteStorageSpikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D3C7FBDD2F81FE0BEB7083 /* Pods_firebaseRemoteStorageSpikeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07807B8F599A9DD944702438 /* Pods-firebaseRemoteStorageSpikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseRemoteStorageSpikeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseRemoteStorageSpikeTests/Pods-firebaseRemoteStorageSpikeTests.release.xcconfig"; sourceTree = "<group>"; };
+		159DE5FDC81C41DDAE8033CF /* Pods_firebaseRemoteStorageSpike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseRemoteStorageSpike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9A99210BE27BA7212D73B4 /* Pods-firebaseRemoteStorageSpikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseRemoteStorageSpikeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseRemoteStorageSpikeTests/Pods-firebaseRemoteStorageSpikeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4E912E3F208E7438003D227C /* firebaseRemoteStorageSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaseRemoteStorageSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E912E42208E7438003D227C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E912E44208E7438003D227C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		4E912E53208E7438003D227C /* firebaseRemoteStorageSpikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firebaseRemoteStorageSpikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E912E57208E7438003D227C /* firebaseRemoteStorageSpikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseRemoteStorageSpikeTests.swift; sourceTree = "<group>"; };
 		4E912E59208E7438003D227C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D3C7FBDD2F81FE0BEB7083 /* Pods_firebaseRemoteStorageSpikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseRemoteStorageSpikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD12AD24012274E6DDCAEFB /* Pods-firebaseRemoteStorageSpike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseRemoteStorageSpike.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseRemoteStorageSpike/Pods-firebaseRemoteStorageSpike.release.xcconfig"; sourceTree = "<group>"; };
+		B93F215D219718C3A75C506A /* Pods-firebaseRemoteStorageSpike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseRemoteStorageSpike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseRemoteStorageSpike/Pods-firebaseRemoteStorageSpike.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17234576CCCC4AFDBF32AC33 /* Pods_firebaseRemoteStorageSpike.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86540B5F4D2DBEDD80F4C271 /* Pods_firebaseRemoteStorageSpikeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				4E912E41208E7438003D227C /* firebaseRemoteStorageSpike */,
 				4E912E56208E7438003D227C /* firebaseRemoteStorageSpikeTests */,
 				4E912E40208E7438003D227C /* Products */,
+				B6EEC1CCF4C511BFADF2F9AA /* Pods */,
+				CA4DCF99D78F65351DAE00FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = firebaseRemoteStorageSpikeTests;
 			sourceTree = "<group>";
 		};
+		B6EEC1CCF4C511BFADF2F9AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B93F215D219718C3A75C506A /* Pods-firebaseRemoteStorageSpike.debug.xcconfig */,
+				ADD12AD24012274E6DDCAEFB /* Pods-firebaseRemoteStorageSpike.release.xcconfig */,
+				3B9A99210BE27BA7212D73B4 /* Pods-firebaseRemoteStorageSpikeTests.debug.xcconfig */,
+				07807B8F599A9DD944702438 /* Pods-firebaseRemoteStorageSpikeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA4DCF99D78F65351DAE00FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				159DE5FDC81C41DDAE8033CF /* Pods_firebaseRemoteStorageSpike.framework */,
+				69D3C7FBDD2F81FE0BEB7083 /* Pods_firebaseRemoteStorageSpikeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E912E5C208E7438003D227C /* Build configuration list for PBXNativeTarget "firebaseRemoteStorageSpike" */;
 			buildPhases = (
+				DB7F149EC5CDDDD0B1609695 /* [CP] Check Pods Manifest.lock */,
 				4E912E3B208E7438003D227C /* Sources */,
 				4E912E3C208E7438003D227C /* Frameworks */,
 				4E912E3D208E7438003D227C /* Resources */,
+				E3141B6109CCF67837FCA022 /* [CP] Embed Pods Frameworks */,
+				A1CC1789439EAEC63B91707D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E912E5F208E7438003D227C /* Build configuration list for PBXNativeTarget "firebaseRemoteStorageSpikeTests" */;
 			buildPhases = (
+				7C551B7738C2934783242F8B /* [CP] Check Pods Manifest.lock */,
 				4E912E4F208E7438003D227C /* Sources */,
 				4E912E50208E7438003D227C /* Frameworks */,
 				4E912E51208E7438003D227C /* Resources */,
+				17A405685EA82DDC5D6A5E73 /* [CP] Embed Pods Frameworks */,
+				2D6B18AC4B1B1CA325AF6653 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17A405685EA82DDC5D6A5E73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseRemoteStorageSpikeTests/Pods-firebaseRemoteStorageSpikeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D6B18AC4B1B1CA325AF6653 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseRemoteStorageSpikeTests/Pods-firebaseRemoteStorageSpikeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C551B7738C2934783242F8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebaseRemoteStorageSpikeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1CC1789439EAEC63B91707D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseRemoteStorageSpike/Pods-firebaseRemoteStorageSpike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7F149EC5CDDDD0B1609695 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebaseRemoteStorageSpike-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3141B6109CCF67837FCA022 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseRemoteStorageSpike/Pods-firebaseRemoteStorageSpike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E912E3B208E7438003D227C /* Sources */ = {
@@ -351,6 +488,7 @@
 		};
 		4E912E5D208E7438003D227C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B93F215D219718C3A75C506A /* Pods-firebaseRemoteStorageSpike.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -365,6 +503,7 @@
 		};
 		4E912E5E208E7438003D227C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD12AD24012274E6DDCAEFB /* Pods-firebaseRemoteStorageSpike.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +518,7 @@
 		};
 		4E912E60208E7438003D227C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9A99210BE27BA7212D73B4 /* Pods-firebaseRemoteStorageSpikeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -395,6 +535,7 @@
 		};
 		4E912E61208E7438003D227C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07807B8F599A9DD944702438 /* Pods-firebaseRemoteStorageSpikeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
